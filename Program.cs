@@ -11,7 +11,7 @@ namespace WoWUE4CSVConvert
     class Options
     {
         [Option('f', "folder", Required = true,
-          HelpText = "Path to UE4 Win64 Binaries.")]
+          HelpText = "Folder with CSV files.")]
         public String SourceFilesPath { get; set; }
 
         [Option('m', "merge", Required = true,
